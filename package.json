@@ -1,23 +1,15 @@
 {
-  "name": "wanted-pre-onboarding-challenge-fe-2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "jsdoc": "jsdoc -c jsdoc.config.json index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jyhyun97/wanted-pre-onboarding-challenge-fe-2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jyhyun97/wanted-pre-onboarding-challenge-fe-2/issues"
-  },
-  "homepage": "https://github.com/jyhyun97/wanted-pre-onboarding-challenge-fe-2#readme",
-  "dependencies": {
-    "jsdoc": "^4.0.0"
-  }
+	"name": "jsdoc-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"docs": "jsdoc -c jsdoc.json"
+	},
+	"devDependencies": {
+		"jsdoc": "^3.6.11"
+	},
+	"dependencies": {
+		"typescript": "^4.9.5"
+	}
 }
